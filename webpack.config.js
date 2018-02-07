@@ -56,7 +56,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true
+    noInfo: true,
+    contentBase: path.join(__dirname, "dist")
   },
   performance: {
     hints: false

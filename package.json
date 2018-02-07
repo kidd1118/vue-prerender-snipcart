@@ -5,6 +5,8 @@
   "author": "maximelaboissonniere <maximelaboissonniere@gmail.com>",
   "private": true,
   "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js",
+    "start": "npm run dev",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
